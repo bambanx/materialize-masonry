@@ -38,6 +38,8 @@
 @import "components/date_picker/default.date.scss";
 @import "components/date_picker/default.time.scss";
 
-.hello {
-	color: red;
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
 }

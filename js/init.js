@@ -1,16 +1,16 @@
 (function($){
-  $(function(){
-
-    $('.button-collapse').sideNav();
-
+$(function(){
 
     var $container = $('#masonry-grid');
-    // initialize
-    $container.masonry({
+    $container.imagesLoaded( function() {
+        $container.masonry(
+        	{
       columnWidth: '.col',
       itemSelector: '.col',
     });
-
-
-  }); // end of document ready
+    });
+    
+    
+});
 })(jQuery); // end of jQuery name space
+

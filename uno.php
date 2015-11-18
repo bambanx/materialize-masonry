@@ -6,6 +6,7 @@
   <title>Masonry Materialize</title>
 
   <!-- CSS  -->
+  <link href="./bower_components/fakeLoader/fakeLoader.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
@@ -190,7 +191,10 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/bin/materialize.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.2.0/imagesloaded.pkgd.js"></script>
+
   <script src="js/init.js"></script>
+
 
   </body>
 </html>
